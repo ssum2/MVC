@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL; 3IfTest: 두 개의 수를 입력 받아서 크기 비교하기</title>
+<script type="text/javascript">
+	function goSubmit() {
+		var frm = document.ifFrm;
+		frm.submit();
+	}
+</script>
+</head>
+<body>
+	<form name="ifFrm" action="3IfTestEnd.jsp" method="GET">
+		첫번째 수: <input type="number" name="num1"/><br/>
+		두번째 수: <input type="number" name="num2"/><br/>
+		<button type="button" onClick="goSubmit();">확인</button>
+	</form>
+</body>
+</html>

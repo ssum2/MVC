@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+xml문서로 사용하려면 위에서 선언해줘야함
+-->
+<books>	<!-- 여러개 행을 불러와야 하기때문에 하나의 엘리먼트로 묶어줌 -->
+	<book> <!-- 테이블명 book; 컬럼명 subject; value 소설 -->
+		<subject>소설</subject>
+		<title>해질무렵</title>
+		<author>황석영</author>
+	</book>
+	<book>
+		<subject>소설</subject>
+		<title>마션</title>
+		<author>앤디위어</author>
+	</book>
+	<book>
+		<subject>소설</subject>
+		<title>어린왕자</title>
+		<author>생텍쥐페리</author>
+	</book>
+	<book>
+		<subject>소설</subject>
+		<title>당신</title>
+		<author>박범신</author>
+	</book>
+	<book>
+		<subject>프로그래밍</subject>
+		<title>ORACLE</title>
+		<author>이순신</author>
+	</book>
+	<book>
+		<subject>프로그래밍</subject>
+		<title>자바</title>
+		<author>안중근</author>
+	</book>
+	<book>
+		<subject>프로그래밍</subject>
+		<title><![CDATA[JSP & Servlet]]></title><!-- 앤퍼샌드를 글자 그대로 인식하게 하려면 CDATA를 써 줘야함 -->
+		<author>똘똘이</author>
+	</book>
+	<book>
+		<subject>소설</subject>
+		<title>삼국지</title>
+		<author>이문열</author>
+	</book>
+	<book>
+		<subject>프로그래밍</subject>
+		<title>스프링</title>
+		<author>윤봉길</author>
+	</book>
+	<book>
+		<subject>프로그래밍</subject>
+		<title>Ajax</title>
+		<author>안창호</author>
+	</book>
+</books>

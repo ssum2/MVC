@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL; 4ChooseTest: 입력받은 숫자가 1,3일 때는 남자, 2,4일 때는 여자로 나타내기</title>
+<script type="text/javascript">
+	function goSubmit() {
+		var frm = document.genderFrm;
+		frm.submit();
+	}
+</script>
+</head>
+<body>
+	<form name="genderFrm" action="4ChooseTestEnd.jsp" method="post">
+		숫자입력: <input type="text" name="num"/>
+		<button type="button" onClick="goSubmit();">확인</button>
+	
+	</form>
+
+</body>
+</html>
